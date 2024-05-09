@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    margin-bottom: 700px;
+    width: 100%;
+
+}
+.navbar .logo img{
+    display: flex;
+    height: 50px;
+    width: auto;
+    
+    
+}
+/*changer la couleur des a dans la navbar*/
+.navbar a{
+    color:black;
+}
+
+
+
+/* aligner les élément de la nav_links*/
+
+.navbar .nav_link ul{
+    display: flex;
+    justify-content: space-around;
+    margin-right:90px ;
+}
+
+.navbar .nav_link ul li{
+    /*display: flex;
+    justify-content: space-between;*/
+    margin: 0 20px;
+}
+
+.login_cart{
+    display: flex;
+    align-items: center;
+}
+
+button{
+    border:0px solid;
+    border-radius: none;
+    background-color: white;
+}
+
+.login_cart img{
+    display:flex;
+    align-items: center;
+    height: 25px;
+    margin: 25px;
+    padding-left: 30px;
+}
+
+
+
+/*modification du search*/
+.search{
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.search .search_bar  img{
+    height: 35px;
+    margin-right: 50px;
+}
+
+
+.search_bar .img_search input{  
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+}
